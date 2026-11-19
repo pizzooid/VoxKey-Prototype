@@ -1,0 +1,6 @@
+{
+  "name": "VoxKey",
+  "description": "Compact native on-device Android voice keyboard with audio pre-buffer, cursor navigation, fallback escape-hatch editor, and searchable emoji picker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,85 @@
+package com.example.ui.theme
+
+import androidx.compose.runtime.Immutable
+import androidx.compose.ui.graphics.Color
+
+@Immutable
+data class VoxKeyPalette(
+  val keyboardBackground: Color,
+  val traySurface: Color,
+  val keySurface: Color,
+  val keyElevated: Color,
+  val keyBorder: Color,
+  val divider: Color,
+  val inkPrimary: Color,
+  val inkSecondary: Color,
+  val dictateAccent: Color,
+  val onDictateAccent: Color,
+  val dictateActiveBg: Color,
+  val commandAccent: Color,
+  val onCommandAccent: Color,
+  val commandActiveBg: Color,
+  val navigateAccent: Color,
+  val onNavigateAccent: Color,
+  val navigateActiveBg: Color,
+  val applyAccent: Color,
+  val onApplyAccent: Color,
+  val errorAccent: Color,
+  val errorBg: Color,
+  val tooltipBg: Color,
+  val tooltipInk: Color,
+)
+
+val LightVoxKeyPalette =
+  VoxKeyPalette(
+    keyboardBackground = Color(0xFFF4F2EE),
+    traySurface = Color(0xFFE7E3DC),
+    keySurface = Color(0xFFFFFFFF),
+    keyElevated = Color(0xFFFAF9F6),
+    keyBorder = Color(0xFFD5D0C7),
+    divider = Color(0xFFDDD8CF),
+    inkPrimary = Color(0xFF1A1917),
+    inkSecondary = Color(0xFF6E6A63),
+    dictateAccent = Color(0xFFE85A1B),
+    onDictateAccent = Color(0xFFFFFFFF),
+    dictateActiveBg = Color(0xFFFDE8DF),
+    commandAccent = Color(0xFF0F766E),
+    onCommandAccent = Color(0xFFFFFFFF),
+    commandActiveBg = Color(0xFFDDF4F1),
+    navigateAccent = Color(0xFF1D63DC),
+    onNavigateAccent = Color(0xFFFFFFFF),
+    navigateActiveBg = Color(0xFFE2ECFC),
+    applyAccent = Color(0xFF1A1917),
+    onApplyAccent = Color(0xFFF4F2EE),
+    errorAccent = Color(0xFFC62828),
+    errorBg = Color(0xFFFCE8E8),
+    tooltipBg = Color(0xFF1A1917),
+    tooltipInk = Color(0xFFF4F2EE),
+  )
+
+val DarkVoxKeyPalette =
+  VoxKeyPalette(
+    keyboardBackground = Color(0xFF141413),
+    traySurface = Color(0xFF1C1B19),
+    keySurface = Color(0xFF262522),
+    keyElevated = Color(0xFF2E2C28),
+    keyBorder = Color(0xFF393631),
+    divider = Color(0xFF2B2925),
+    inkPrimary = Color(0xFFF2EFE9),
+    inkSecondary = Color(0xFF9E988E),
+    dictateAccent = Color(0xFFFF6B2B),
+    onDictateAccent = Color(0xFF141413),
+    dictateActiveBg = Color(0xFF3B2217),
+    commandAccent = Color(0xFF2DD4BF),
+    onCommandAccent = Color(0xFF0E1D1B),
+    commandActiveBg = Color(0xFF16302D),
+    navigateAccent = Color(0xFF5E9BFF),
+    onNavigateAccent = Color(0xFF0E1726),
+    navigateActiveBg = Color(0xFF1B2B45),
+    applyAccent = Color(0xFFF2EFE9),
+    onApplyAccent = Color(0xFF141413),
+    errorAccent = Color(0xFFEF5350),
+    errorBg = Color(0xFF3A1B1B),
+    tooltipBg = Color(0xFFF2EFE9),
+    tooltipInk = Color(0xFF141413),
+  )
